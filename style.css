@@ -1,4 +1,5 @@
 body {
+    margin: 0%;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -27,6 +28,11 @@ body {
     padding: 10px 40px;
 }
 
+.SecondarySection {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 .DonateBar {
     margin-top: 60px;
     display: block;
@@ -38,13 +44,20 @@ body {
     font-weight: 700;
     font-size: 20px;
     position: absolute;
-    padding-left: 22%;
+    padding-left: 5%;
 }
 
 .MoneyBox>div {
     margin: 20px;
-    background-color: gray;
+    font-weight: 700;
+    background-color: rgb(172, 172, 172);
     padding: 30px;
+}
+
+#FiveHund {
+    border-top: 500px;
+    color: rgb(240, 165, 2);
+    background-color: rgb(167, 232, 173);
 }
 
 input {
@@ -65,16 +78,104 @@ input {
 
 .StrategyBox {
     display: flex;
-    text-align: justify;
-    font-size: 10px;
+
+    margin-left: 40px;
 }
 
 .StrategyBox>div {
-    margin: 10px;
-    background-color: gray;
+    margin: 15px;
+    padding-top: 10px;
+    padding: 2%;
+    background-color: rgb(148, 108, 108);
 }
 
 .StrategyTitle {
+    text-align: center;
     font-weight: 700;
     font-size: large;
+}
+
+.StrategyPara {
+    text-align: left;
+    font-size: small;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#StrategyOne {
+    background-color: rgb(163, 230, 192);
+}
+
+#StrategyTwo {
+    background-color: rgb(230, 174, 163);
+}
+
+#StrategyThree {
+    background-color: rgb(230, 200, 163);
+}
+
+.MoreInfo {
+    display: block;
+    margin-top: 60px;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.chartSumer {
+    display: flex;
+}
+
+.chartSumerry {
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-right: 5%;
+    width: 30%;
+    text-align: center;
+}
+
+#imageSumer {
+    width: 100%;
+}
+
+.getInfo {
+    background-color: rgb(252, 207, 146);
+    margin-bottom: 10px;
+}
+
+#subcribe {
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    background-color: rgb(243, 30, 30);
+    color: white;
+    font-weight: 400;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+#textField {
+    background-color: rgb(214, 202, 202);
+    padding: 5px 10px;
+    border-bottom-style: hidden;
+
+}
+
+.Footer {
+    color: rgb(255, 15, 15);
+    margin: 0%;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(23, 23, 23);
+}
+
+#footerText {
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+#footerTextOne {
+    font-size: smaller;
+    color: white;
+
 }
